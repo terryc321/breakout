@@ -22,9 +22,11 @@ maybe.
 
 initiated project directory using figwheel-main
 
-> lein new figwheel-main breakout.core -- --reagent
-> cd breakout.core
-> lein fig:build
+    lein new figwheel-main breakout.core -- --reagent
+
+    cd breakout.core
+
+    lein fig:build
 
 browser opens up at localhost:9500/
 terminal repl is exceptionally good.
@@ -41,10 +43,12 @@ so get twice number of signals speeds up intervals
 ======================================================================
 
 to get some general psychological help try
-> :repl/help
+
+    :repl/help
 
 to quit from the magnificient repl
-> :cljs/quit
+
+    :cljs/quit
 
 
 ======================================================================
